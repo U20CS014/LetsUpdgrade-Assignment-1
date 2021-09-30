@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    
+    width: 100%;
+    background-color: teal;
+    display: inline-block;
+
+}
+
+.card{
+    height: 300px;
+    width: 19%;
+    margin-left: 10px;
+    background-color: darkgray;
+    display: inline-block;
+}
+
+
+
+@media (max-width:1024px){
+    
+    .card{
+        width: 50%;
+    }
+
+}
+
+
+
+
+@media (max-width:420px) {
+
+    .card{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+
+}
